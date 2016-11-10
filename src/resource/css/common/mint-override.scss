@@ -1,0 +1,29 @@
+@import './color';
+
+.mint-header {
+	background: #fff;
+	border-bottom: 1px solid #e5e7e7;
+	color: #393d40;
+	font-size: 1.7rem;
+	height: 4.4rem;
+	.mint-button {
+		color: #393d40;
+	}
+}
+.mint-button--default {
+	background-color: $theme-color;
+	color: #fff;
+	box-shadow: none;
+}
+.mint-navbar {
+	.mint-tab-item {
+		&.is-selected {
+			border-bottom: 3px solid $theme-color;
+    		color: $theme-color;
+    		margin-bottom: 0;
+		}
+		.mint-tab-item-label {
+			font-size: 1.5rem;
+		}
+	}
+}

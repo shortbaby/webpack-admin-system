@@ -1,0 +1,11 @@
+{
+    "code": 0,
+    "msg": null,
+    "data":[
+        {
+            "orgName":"飞渡教育",
+            "token":"sdfjlsadjflas",
+            "jumpUrl":"http://test-business.ctest.baijiahulian.com/wechat/webauth/selectStu.ajax?openId=asdjflaskl&token=dslkjflasjdfl"
+        }
+    ]
+}

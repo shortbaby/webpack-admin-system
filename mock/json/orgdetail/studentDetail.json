@@ -1,0 +1,17 @@
+{
+    "msg":"succ",
+    "code":0,
+    "data":{
+        "id":12344,
+        "name":"李彦宏",
+        "mobile":"13800138000",
+        "gender":1,
+        "duty":"总经理",
+        "email":"liyanhong@163.com",
+        "wechat":"xiaoli",
+        "tshirtSize":2,
+        "identityCard":"421100197010110901",
+        "birthday": null,
+        "hasBindWechat":"已绑定公众号"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "id": 5,
+    "name": null,
+    "permissions":[
+      "1",
+      "2"
+    ]     
+  }
+}

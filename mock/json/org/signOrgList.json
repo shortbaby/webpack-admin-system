@@ -1,0 +1,37 @@
+{
+    "msg":"succ",
+    "code":0,
+    "data":[
+        {
+            "id":10000,
+            "name":"新东方挖掘机学校",
+            "city":"湖北武汉",
+            "category":"艺体兴趣"
+        },
+        {
+            "id":20000,
+            "name":"蓝翔挖掘机学校",
+            "city":"山东济南",
+            "category":"艺体兴趣"
+        },
+        {
+            "id":30000,
+            "name":"北大青鸟挖掘机学校",
+            "city":"北京",
+            "category":"艺体兴趣"
+        },
+        {
+            "id":40000,
+            "name":"飞渡挖掘机学校",
+            "city":"湖北武汉",
+            "category":"艺体兴趣"
+        }
+    ],
+    "pageDto":{
+        "count":4,
+        "curPageCount":4,
+        "pageNum":1,
+        "pageSize":20,
+        "totalPageNum":1
+    }
+}

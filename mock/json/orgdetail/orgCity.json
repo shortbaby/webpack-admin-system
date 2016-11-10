@@ -1,0 +1,19 @@
+{
+	"code": 0,
+	"msg": null,
+	"data":[
+		{
+			"id": 0,
+			"name": "不限"
+		},
+		{
+			"id": 1,
+			"name": "武汉"
+		},
+		{
+			"id": 2,
+			"name": "长沙"
+		}
+	],
+	"pageDto": null
+}

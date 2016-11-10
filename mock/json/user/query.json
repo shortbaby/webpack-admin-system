@@ -1,0 +1,93 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": [
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 0
+    },
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 2
+    },
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 2
+    },
+    {
+      "id": 1,
+      "account": "xieshuquan",
+      "name": "谢树泉",
+      "mobile": "13554474358",
+      "role": "超级管理员",
+      "company": "百家云图",
+      "createTime": 1476281925000,
+      "status": 2
+    }
+  ],
+  "pageDto": {
+    "count": 9,
+    "curPageCount": 1,
+    "pageNum": 1,
+    "pageSize": 20,
+    "totalPageNum": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "id": 1,
+        "account": "xieshuquan",
+        "name": "谢树泉",
+        "company": "百家云图",
+        "position": "研发工程师",
+        "mobile": "13554474358",
+        "role": [{
+            "id": 2,
+            "name": "管理员2"
+        }, {
+            "id": 3,
+            "name": "管理员3"
+        }]
+    },
+    "pageDto": null
+}

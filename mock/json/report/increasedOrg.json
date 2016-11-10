@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+      "startTime":100000,
+      "endTime":10000,
+      "list":[
+       {
+         "time": "2016-10-26",
+         "number": 12
+       },
+       {
+         "time": "2016-10-27",
+         "number": "13"
+       }
+      ]
+    }
+}

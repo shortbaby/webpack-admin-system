@@ -1,0 +1,41 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "id": 2,
+            "orgCity": "湖北武汉",
+            "orgName": "jijijiji",
+            "category": 1,
+            "identity": "機構身份",
+            "studentName": "张三",
+            "gender": 1,
+            "duty": "执行院长",
+            "mobile": "18627824732",
+            "shirtSize": "M",
+            "identityCard": "421098374655578",
+            "arriveTime": 1476871149000,
+            "courses": [
+                {
+                    "id": 1,
+                    "type": 0,
+                    "name": "独立课程"
+                },
+                {
+                    "id": 2,
+                    "type": 0,
+                    "name": "独立课程1"
+                }
+            ],
+            "hotelType": 1,
+            "checkInStatus": 0
+        }
+    ],
+    "pageDto": {
+        "count": 1,
+        "curPageCount": 1,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

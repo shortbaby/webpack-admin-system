@@ -1,0 +1,11 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": {
+    "id": 1,
+    "name": "武汉好好厉害的机构",
+    "studentName": "王斯侠",
+    "studentMobile": "13554474358"
+  },
+  "pageDto": null
+}

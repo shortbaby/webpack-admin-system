@@ -1,0 +1,91 @@
+{
+    "msg":"succ",
+    "code":0,
+    "data":[
+        {
+            "commentId":1,
+            "storageIds":"134,2222",
+            "urls":"http://test-img.gsxservice.com/729428_iy1zwv3h.jpg,http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+            "content":"跟进记录内容",
+            "userId": -1,
+            "userName":"张怡宁",
+            "userIdentity":"武汉分公司总经理",
+            "orgId":456,
+            "followType": 3,
+            "followTypeStr": "xxx",
+            "createTime":11123242323
+        },
+        {
+            "commentId":1,
+            "storageIds":"134,2222",
+            "urls":"http://test-img.gsxservice.com/729428_iy1zwv3h.jpg,http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+            "content":"跟进记录内容",
+            "userId":1234,
+            "userName":"张怡宁",
+            "userIdentity":"武汉分公司总经理",
+            "orgId":456,
+            "followType": 1,
+            "followTypeStr": "xxx",
+            "createTime":11123242323
+        },
+        {
+            "commentId":1,
+            "storageIds":"134,2222",
+            "urls":"http://test-img.gsxservice.com/729428_iy1zwv3h.jpg,http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+            "content":"跟进记录内容",
+            "userId":1234,
+            "userName":"张怡宁",
+            "userIdentity":"武汉分公司总经理",
+            "orgId":456,
+            "followType": 2,
+            "followTypeStr": "xxx",
+            "createTime":11123242323
+        },
+        {
+            "commentId":1,
+            "storageIds":"134,2222",
+            "urls":"http://test-img.gsxservice.com/729428_iy1zwv3h.jpg,http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+            "content":"跟进记录内容",
+            "userId":1234,
+            "userName":"张怡宁",
+            "userIdentity":"武汉分公司总经理",
+            "orgId":456,
+            "followType": 3,
+            "followTypeStr": "xxx",
+            "createTime":11123242323
+        },
+        {
+            "commentId":1,
+            "storageIds":"134,2222",
+            "urls":"http://test-img.gsxservice.com/729428_iy1zwv3h.jpg,http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+            "content":"跟进记录内容",
+            "userId":1234,
+            "userName":"张怡宁",
+            "userIdentity":"武汉分公司总经理",
+            "orgId":456,
+            "followType": 4,
+            "followTypeStr": "xxx",
+            "createTime":11123242323
+        },
+        {
+            "commentId":1,
+            "storageIds":"134,2222",
+            "urls":"http://test-img.gsxservice.com/729428_iy1zwv3h.jpg,http://test-img.gsxservice.com/729428_iy1zwv3h.jpg",
+            "content":"跟进记录内容",
+            "userId":1234,
+            "userName":"张怡宁",
+            "userIdentity":"武汉分公司总经理",
+            "orgId":456,
+            "followType": 5,
+            "followTypeStr": "xxx",
+            "createTime":11123242323
+        }
+    ],
+    "pageDto": {
+        "count":2,
+        "curPageCount":2,
+        "pageNum":1,
+        "pageSize":20,
+        "totalPageNum":1
+    }
+}

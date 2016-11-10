@@ -1,0 +1,24 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "className": "商学院班级",
+        "studentNum": 1,
+        "startTime": "2016-10-17",
+        "endTime": "2016-09-19",
+        "cutTime": 1477128400000,
+        "periods": 1,
+        "cityId": 1,
+        "cityName": "武汉",
+        "provName": "湖北",
+        "address": "aaaaaa",
+        "courses": [{
+            "id": 1,
+            "name": "独立课程"
+        }, {
+            "id": 2,
+            "name": "独立课程1"
+        }]
+    },
+    "pageDto": null
+}

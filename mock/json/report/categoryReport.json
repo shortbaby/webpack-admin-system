@@ -1,0 +1,26 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data":[
+        {
+            "name":"K12教育",
+            "number":10,
+            "percent":"10%"
+        },
+                {
+            "name":"艺体教育",
+            "number":20,
+            "percent":"20%"
+        },
+                {
+            "name":"出国留学",
+            "number":30,
+            "percent":"30%"
+        },
+                {
+            "name":"未知",
+            "number":40,
+            "percent":"40%"
+        }
+    ]
+}

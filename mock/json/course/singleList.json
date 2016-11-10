@@ -1,0 +1,36 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data": [
+        {
+            "id": 1,
+            "courseName": "课程名称",
+            "description": "课程简介",
+            "price": 100
+        },
+        {
+            "id": 2,
+            "courseName": "课程名称",
+            "description": "课程简介",
+            "price": 100
+        },
+        {
+            "id": 3,
+            "courseName": "课程名称",
+            "description": "课程简介",
+            "price": 100
+        },
+        {
+            "id": 4,
+            "courseName": "课程名称",
+            "description": "课程简介",
+            "price": 100
+        }
+    ],
+    "pageDto": {
+        "count": 100,
+        "pageNum": 1,
+        "pageSize": 20,
+        "curPageCount": 20
+    }
+}

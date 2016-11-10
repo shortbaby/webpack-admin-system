@@ -1,0 +1,65 @@
+
+@import './mixin';
+@import './vue';
+@import './vueTransitions';
+@import './variable';
+@import './color';
+html, body {
+	background: #f5f6f7;
+	//height: 100%;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	li {
+		list-style: none;
+	}
+}
+a {
+	text-decoration: none;
+}
+h3 {
+	margin: 0;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+.time {
+	font-size: 1.2rem;
+	color: #9C9E9F;
+}
+.avatar {
+	border-radius: 50%;
+}
+.clearfix {
+	@include clearfix();
+}
+.left {
+	float: left;
+	position: relative;
+}
+.right {
+	float: right;
+	position: relative
+}
+.app {
+	.mint-button--default {
+		background-color: $theme-color;
+		color: #fff;
+		box-shadow: none;
+	}
+	.mint-cell {
+		&:before {
+			border-bottom: none;
+		}
+		&:after {
+			border-top: none;
+		}
+	}
+}
+.icon-dian {
+	color: $theme-color;
+}
+
+

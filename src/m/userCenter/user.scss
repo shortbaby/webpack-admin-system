@@ -1,0 +1,176 @@
+@import '../../../dep/iconfont/iconfont.css';
+@import '../../resource/css/common/m';
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/mixin';
+@import '../../resource/css/common/mint-override';
+@import '../../../node_modules/sass-mediaqueries/_media-queries';
+p {
+	margin: 0;
+}
+#app {
+	padding-bottom: 3rem;
+	> div {
+		width: 100%;
+	}
+}
+nav {
+	display: flex;
+	text-align: center;
+	background: #fff;
+	border-bottom: 1px solid #e5e7e7;
+	padding: 1.2rem 0;
+	> a {
+		color: $theme-color;
+		flex: 1;
+	}
+}
+.user-sign-wrapper {
+	.list {
+		li {
+			@include clearfix();
+			padding: 2rem;
+			border-bottom: 1px solid #e5e7e7;
+			background: #fff;
+			img {
+				float: left;
+				width: 12rem;
+				height: 7rem;
+			}
+			.icon-users {
+				margin-left: 2rem;
+			}
+			> div {
+				margin-left: 13rem;
+				.iconfont {
+					color: #9c9e9f;
+				}
+				p {
+					font-size: 1.2rem;
+					color: #393d40;
+					margin-bottom: 1rem;
+				}
+				.name {
+					font-size: 1.6rem;
+					color: #393d40;
+				}
+			}
+		}
+	}
+}
+.user-sign-detail-wrapper {
+	padding-bottom: 2rem;
+	.info {
+		margin: 2rem;
+		background: #FFFFFF;
+		border: 1px solid #E5E7E7;
+		border-radius: 4px;
+		padding: 1.5rem;
+		p {
+			color: #393d40;
+			margin: .9rem 0;
+			font-size: 1.4rem;
+			label {
+				color: #9c9e9f;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		.name {
+			@include text-overflow();
+			font-size: 1.8rem;
+			color: #ec960c;
+			margin-bottom: 1rem;
+			margin-top: 0;
+		}
+	}
+	.sign-info {
+		background: #fff;
+		font-size: 1.4rem;
+		padding: 1rem 0 1rem 2rem;
+		color: #6b6e70;
+		border-top: 1px solid #e5e6e7;
+		border-bottom: 1px solid #e5e6e7;
+	}
+	.list {
+		li {
+			@include clearfix();
+			padding: 1.3rem 2rem;
+			background: #fff;
+			border-bottom: 1px solid #e5e6e7;
+			font-size: 1.2rem;
+			color: #9c9e9f;
+			opacity: .5;
+			position: relative;
+			> div {
+				margin-left: 5rem;
+			}
+			img {
+				float: left;
+			}
+			.switch-control {
+				position: absolute;
+				top: 50%;
+				transform: translate3d(0, -50%, 0);
+				right: 2rem;
+				margin-left: 0;
+				> div {
+					margin-bottom: .5rem;
+				}
+			}
+			.name {
+				font-size: 1.6rem;
+				color: #393d40;
+				line-height: 1.5;
+				margin-bottom: .2rem;
+			}
+			.iconfont {
+				position: absolute;
+				display: none;
+				top: 50%;
+				right: 2rem;
+				transform: translate3d(0, -50%, 0);
+			}
+			&.normal {
+				opacity: 1;
+			}
+			&.signed {
+				opacity: 1;
+				.iconfont {
+					display: inline-block;
+					color: $theme-color;
+					font-size: 2rem;
+
+				}
+			}
+		}
+	}
+}
+@include max-screen(321px) {
+    .user-sign-wrapper {
+        .list {
+            li {
+                img {
+                	float: none;
+                    width: 100%;
+                    height: 8rem;
+                }
+                div {
+                    margin-left: 0;
+                    p {
+                        font-size: 1.2rem;
+                        color: #393d40;
+                        margin-top: 1rem;
+                        margin-bottom: 0rem;
+                    }
+                    .name {
+                    	margin-top: 1rem;
+                        font-size: 1.6rem;
+                        color: #393d40;
+                    }
+                }
+            }
+        }
+    }
+}
+

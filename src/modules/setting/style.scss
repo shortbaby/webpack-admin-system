@@ -1,0 +1,194 @@
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/mixin';
+
+.setting_wrap {
+	.setting-role-div {
+		> h3 {
+			font-size: 24px;
+			font-weight: 400;
+			color: #393d40;
+			padding: 20px;
+		}
+		.role-container {
+			min-height: 600px;
+			padding: 0 20px 20px 20px;
+			.left {
+				width: 320px;
+				background: #fff;
+				float: left;
+				min-height: 600px;
+				padding: 20px;
+				box-sizing: border-box;
+				.role-list {
+					margin: 10px 0;
+					// padding-right: 20px;
+					// max-height: 500px;
+    	// 			overflow-y: auto;
+					li {
+						height: 46px;
+						line-height: 46px;
+						padding: 0 10px;
+						&.active {
+							background: #F2F4F5;
+							border-radius: 4px; 
+						}
+						&:hover {
+							.iconfont {
+								display: inline-block;
+							}
+						}
+						.name {
+							display: inline-block;
+							width: 180px;
+							line-height: 1;
+							@include text-overflow();
+						}
+						.icon-users {
+							position: relative;
+							top: -2px;
+						}
+						.icon-bianji {
+							float: right;
+							position: relative;
+							color: $theme-color;
+    						//background: #fff;
+    						font-size: 21px;
+    						line-height: 21px;
+    						top: 11px;
+    						left: -5px;
+    						display: none;
+							cursor: pointer;
+							transition: font-size .1s ease;
+							&:hover {
+								font-size: 24px;
+							}
+						}
+						.icon-shanchu {
+							float: right;
+							position: relative;
+							top: 13px;
+							color: #ff5e3d;
+    						background: #fff;
+    						font-size: 18px;
+    						display: none;
+							cursor: pointer;
+							transition: font-size .1s ease;
+							&:hover {
+								font-size: 22px;
+							}
+						}
+						&:hover {
+							background: #F2F4F5;
+							border-radius: 4px;
+						}		
+					}
+				}
+			}
+			.right {
+				background: #fff;
+				margin-left: 340px;
+				min-height: 600px;
+				padding: 20px;
+				box-sizing: border-box;
+				.permisson-tree {
+					margin-top: 10px;
+					margin-bottom: 20px;
+				}
+			}
+			.t-head {
+				> span {
+					font-size: 18px;
+					color: #6B6E70;
+					line-height: 18px;
+				}
+				.btn-label {
+					cursor: pointer;
+					float: right;
+					span {
+						&:last-child {
+							color: $theme-color;
+						}
+						
+					}
+				}
+			}
+		}
+		.new-role-modal {
+			.role-txt {
+				color: #393d40;
+				display: inline-block;
+				margin: 10px 0;
+			}
+			.el-input {
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.user-list-wrap {
+		margin: 0 20px;
+		.top {
+			padding: 20px 0;
+			.left {
+				position: absolute;
+				> span {
+					font-size: 36px;
+				}
+				> .txt {
+					font-size: 24px;
+					color: #393d40;
+					position: relative;
+				}
+			}
+			.search-form {
+				display: inline-block;
+				float: right;
+				> div {
+					float: left;
+					margin-right: 10px;
+				}
+			}
+		}
+		.user-table {
+			overflow-x: auto;
+		}
+		.pager {
+			margin-top: 20px;
+		}
+		.user-form {
+			.item-7 {
+				.el-checkbox {
+					margin-left: 0;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+	.teacher-list-wrap {
+		margin: 0 20px;
+		.top {
+			padding: 20px 0;
+			.left {
+				position: absolute;
+				> span {
+					font-size: 36px;
+				}
+				> .txt {
+					font-size: 24px;
+					color: #393d40;
+					position: relative;
+				}
+			}
+			.search-form {
+				display: inline-block;
+				float: right;
+				> div {
+					float: left;
+					margin-right: 20px;
+				}
+			}
+		}
+		.pager {
+			margin-top: 20px;
+		}
+	}
+}

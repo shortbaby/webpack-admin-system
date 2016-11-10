@@ -1,0 +1,19 @@
+{
+	"code": 0,
+	"msg": null,
+	"data": [{
+		"startTime": 1478743200000,
+		"endTime": 1478843200000,
+		"address": "1中文地址",
+		"theme": "1中文主題",
+		"className": "testttt",
+		"arriveStudentNum": 1
+	}],
+	"pageDto": {
+		"count": 1,
+		"curPageCount": null,
+		"pageNum": 1,
+		"pageSize": 20,
+		"totalPageNum": 1
+	}
+}

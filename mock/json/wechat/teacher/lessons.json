@@ -1,0 +1,34 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "classInfo": {
+            "id": 1,
+            "className": "310业绩倍增计划",
+            "cityName": "武汉",
+            "address": "洪山区街道口群光百脑汇20层",
+            "pic": "http://img.gsxservice.com/36218_w4bny0tf.jpeg@1e_40h_40w_1c_0i_1o_1l_90Q_1x.jpeg",
+            "startTime": 1477968809000,
+            "endTime": 1477968810000,
+            "studentNum": 10,
+            "courseList": [
+                {
+                    "id": 1,
+                    "type": 0,
+                    "name": "独立课程"
+                }
+            ]
+        },
+        "lessonInfos": [
+            {
+                "id": 1,
+                "startTime": 1477968809000,
+                "endTime": 1477968810000,
+                "theme": "主题",
+                "teacherId": 1,
+                "teacherName": "老师张"
+            }
+        ]
+    },
+    "pageDto": null
+}

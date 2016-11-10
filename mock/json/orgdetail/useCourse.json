@@ -1,0 +1,19 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "id": 0,
+            "name": "不限"
+        },
+        {
+            "id": 1,
+            "name": "独立课程"
+        },
+        {
+            "id": 2,
+            "name": "独立课程1"
+        }
+    ],
+    "pageDto": null
+}

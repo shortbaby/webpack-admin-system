@@ -1,0 +1,16 @@
+{
+    "msg":"succ",
+    "code":0,
+    "data":{
+        "commentId":1,
+        "storageIds":"134,2222",
+        "urls":"www.baidu.com,www.qiandu.com",
+        "content":"跟进记录内容",
+        "userId":1234,
+        "userName":"张怡宁",
+        "userIdentity":"武汉分公司总经理",
+        "orgId":456,
+        "followType": 3,
+        "createTime":11123242323
+    }
+}

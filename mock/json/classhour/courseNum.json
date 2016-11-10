@@ -1,0 +1,37 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "courseNumId": 1,
+            "courseId": 1,
+            "contractId": 1,
+            "courseName": "独立课程",
+            "courseType": 0,
+            "effectiveDate": 1476892800000,
+            "expirationDate": 1477756800000,
+            "onlyOneself": 0,
+            "useNum": 1,
+            "totalNum": 10
+        },
+        {
+            "courseNumId": 4,
+            "courseId": 1,
+            "contractId": 1,
+            "courseName": "课程组合",
+            "courseType": 1,
+            "effectiveDate": 1476892800000,
+            "expirationDate": 1477756800000,
+            "onlyOneself": 0,
+            "useNum": 1,
+            "totalNum": 1
+        }
+    ],
+     "pageDto": {
+        "count": 2,
+        "curPageCount": 1,
+        "pageNum": 1,
+        "pageSize": 1,
+        "totalPageNum": 2
+    }
+}

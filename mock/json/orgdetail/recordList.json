@@ -1,0 +1,27 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "operName": "徐瑾1",
+            "studentName": "张三1",
+            "className": "testttt1",
+            "type": 1,
+            "createTime": "2016-11-08 14:35:53"
+        },
+        {
+            "operName": "徐瑾2",
+            "studentName": "张三2",
+            "className": "testttt2",
+            "type": 1,
+            "createTime": "2016-11-08 14:35:53"
+        },
+        {
+            "operName": "徐瑾3",
+            "studentName": "张三3",
+            "className": "testttt3",
+            "type": 1,
+            "createTime": "2016-11-08 14:35:53"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "teacherConflict": {
+            "data": [
+                {
+                    "lessonId": 7045,
+                    "courseName": "课程一",
+                    "lessonStartTime": 1472256000000,
+                    "lessonEndTime": 1472263200000,
+                    "index": 24
+                },
+                {
+                    "lessonId": 7044,
+                    "courseName": "课程一",
+                    "lessonStartTime": 1472515200000,
+                    "lessonEndTime": 1472522400000,
+                    "index": 31
+                }
+            ]
+        }
+    },
+    "pageDto": {
+        "count": 2,
+        "curPageCount": 2,
+        "pageNum": 1,
+        "pageSize": 10,
+        "totalPageNum": 1
+    }
+}

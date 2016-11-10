@@ -1,0 +1,26 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data":[
+        {
+            "name":"1000万元-5000万元",
+            "number":10,
+            "percent":"10%"
+        },
+                {
+            "name":"50万元-100万元",
+            "number":20,
+            "percent":"20%"
+        },
+                {
+            "name":"100万元-500万元",
+            "number":30,
+            "percent":"30%"
+        },
+                {
+            "name":"未知",
+            "number":40,
+            "percent":"40%"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "id": 1,
+        "courseType": "商学院课程",
+        "orderType": "定金",
+        "amount": 12,
+        "saleStaff": "张蕤(武汉研发中心-产品研发)01",
+        "effectiveDate": 1473696000000,
+        "expirationDate": 1481558400000,
+        "orderNum": "800116090749957128",
+        "signTime": 1473696000000,
+        "organization": "1",
+        "status": 3,
+        "statusStr": "已通过",
+        "remark": "哈哈",
+        "relevancerName": "谢树泉",
+        "relevancerPositon": "销售",
+        "relevanceTime": 1473696000000,
+        "reviewer": "谢树泉",
+        "reviewTime": 1473696000000,
+        "reviewRemark": "干的漂亮",
+        "organizationDto": {
+            "id": 1,
+            "name": "1",
+            "category": "1",
+            "studentName": "王斯侠",
+            "studentMobile": "13554474358"
+        },
+        "packageInfoDto": [{
+            "id": 3,
+            "name": "套餐2",
+            "amount": 2,
+            "price": 100
+        }, {
+            "id": 4,
+            "name": "套餐1",
+            "amount": 3,
+            "price": 10
+        }]
+    }
+}

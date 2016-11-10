@@ -1,0 +1,33 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data":[
+        {
+            "name":"荆门",
+            "number":10,
+            "percent":"10%"
+        },
+                {
+            "name":"黄冈",
+            "number":20,
+            "percent":"20%"
+        },
+                {
+            "name":"黄石",
+            "number":30,
+            "percent":"30%"
+        },
+                {
+            "name":"武汉",
+            "number":40,
+            "percent":"40%"
+        }
+    ],
+    "pageDto":{
+        "count":4,
+        "curPageCount":4,
+        "pageNum":1,
+        "pageSize":20,
+        "totalPageNum":1
+    }
+}

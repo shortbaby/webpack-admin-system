@@ -1,0 +1,45 @@
+.slide-down-enter-active, .slide-down-leave-active {
+	transition: all .6s ease;
+}
+.slider-down-enter-active, .slide-down-leave{
+	opacity: 1;
+}
+.slide-down-leave-active, .slide-down-enter {
+	opacity: 0;
+	transform: translate3d(0, 20px, 0);
+}
+
+
+.slide-right-enter-active, .slide-right-leave-active{
+	transition: all .8s ease;
+}
+
+.slide-right-enter, .slide-right-leave-active {
+	position: absolute;
+	transform: translate3d(2000px, 0, 0);
+	opacity: .3;
+}
+.slide-right-leave, .slide-right-enter-active {
+	position: absolute;
+	opacity: 1
+}
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .2s ease;
+}
+.component-fade-enter, .component-fade-leave-active {
+  opacity: 0;
+}
+
+.slide-formright-enter-active, .slide-formright-leave-active{
+	transition: all .65s ease;
+}
+
+.slide-formright-enter, .slide-formright-leave-active {
+	position: absolute;
+	transform: translate3d(800px, 0, 0);
+	opacity: .3;
+}
+.slide-formright-leave, .slide-formright-enter-active {
+	position: absolute;
+	opacity: 1
+}

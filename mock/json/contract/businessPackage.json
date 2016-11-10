@@ -1,0 +1,43 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "id": 1,
+            "name": "套餐1套餐1套餐1套餐1套餐1套餐1套餐1",
+            "tagName": "会员1",
+            "price": 15000
+        }, 
+        {
+            "id": 2,
+            "name": "套餐2套餐2套餐2套餐2套餐2套餐2套餐2套餐2套餐2套餐2",
+            "tagName": "会员2",
+            "price": 3000
+        },
+        {
+            "id": 3,
+            "name": "套餐2套餐2套餐2套餐2套2套餐2套餐2",
+            "tagName": "会员2",
+            "price": 3000
+        },
+        {
+            "id": 4,
+            "name": "套餐3套餐fsdfdsf套餐2套餐2套餐2套餐2",
+            "tagName": "会员2",
+            "price": 3000
+        },
+        {
+            "id": 5,
+            "name": "套餐2套餐2套餐2套fsdfjdsf套餐2",
+            "tagName": "会员2",
+            "price": 3000
+        }
+    ],
+    "pageDto": {
+        "count": 7,
+        "curPageCount": 1,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

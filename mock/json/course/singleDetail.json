@@ -1,0 +1,10 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data": {
+        "id": 1,
+        "courseName": "课程名称",
+        "description": "课程简介",
+        "price": 100
+    }
+}

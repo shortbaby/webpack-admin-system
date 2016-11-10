@@ -1,0 +1,44 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "classInfo": {
+            "id": 13,
+            "className": "班级张",
+            "cityName": "武汉",
+            "address": null,
+            "pic": null,
+            "startTime": null,
+            "endTime": null,
+            "studentNum": 0,
+            "hotelName": "",
+            "receiptDesc": null,
+            "courseList": [{
+                "id": 2,
+                "type": 0,
+                "name": "独立课程1"
+            }, {
+                "id": 1,
+                "type": 0,
+                "name": "独立课程"
+            }]
+        },
+        "receiptInfo": {
+            "id": 20,
+            "arriveTime": null,
+            "leaveTime": null,
+            "arriveNum": "",
+            "leaveNum": "",
+            "hotelType": 0
+        },
+        "lessonInfos": [{
+            "id": 9,
+            "startTime": 1478917800000,
+            "endTime": 1478921400000,
+            "theme": "养生之道",
+            "teacherId": 8,
+            "teacherName": "导师张"
+        }]
+    },
+    "pageDto": null
+}

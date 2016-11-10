@@ -1,0 +1,34 @@
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/mixin';
+
+.message-list-wrap {
+	padding: 20px;
+	.top {
+		.left {
+			> span {
+				font-size: 36px;
+			}
+			> .iconfont {
+				margin-right: 5px;
+			}
+			> .txt {
+				font-size: 16px;
+				color: #999;
+				position: relative;
+				top: -5px;
+			}
+			.btn-spn {
+				font-size: 14px;
+				color: $theme-color;
+				margin-left: 20px;
+				cursor: pointer;
+				@include user-select(none);
+			}
+			.selected {
+				color: #333;
+				font-size: 14px;
+				margin-left: 50px;
+			}
+		}
+	}
+}

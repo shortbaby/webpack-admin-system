@@ -1,0 +1,59 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "courseNumId": 1,
+            "courseId": 1,
+            "contractId": 1,
+            "courseName": "独立课程",
+            "courseType": 0,
+            "effectiveDate": 1476892800000,
+            "expirationDate": 1477756800000,
+            "onlyOneself": 1,
+            "useNum": 1,
+            "totalNum": 10,
+            "lessonRule": 0
+        },
+        {
+            "courseNumId": 4,
+            "courseId": 1,
+            "contractId": 1,
+            "courseName": "课程组合",
+            "courseType": 1,
+            "effectiveDate": 1476892800000,
+            "expirationDate": 1477756800000,
+            "onlyOneself": 0,
+            "useNum": 1,
+            "totalNum": 1,
+            "lessonRule": 1
+        },
+        {
+            "courseNumId": 1,
+            "courseId": 1,
+            "contractId": 1,
+            "courseName": "独立课程",
+            "courseType": 0,
+            "effectiveDate": 1476892800000,
+            "expirationDate": 1477756800000,
+            "onlyOneself": 1,
+            "useNum": 1,
+            "totalNum": 10,
+            "lessonRule": 1
+        },
+        {
+            "courseNumId": 4,
+            "courseId": 1,
+            "contractId": 1,
+            "courseName": "课程组合",
+            "courseType": 1,
+            "effectiveDate": 1476892800000,
+            "expirationDate": 1477756800000,
+            "onlyOneself": 0,
+            "useNum": 1,
+            "totalNum": 1,
+            "lessonRule": 0
+        }
+    ],
+    "pageDto": null
+}

@@ -1,0 +1,110 @@
+@import './components/verifyCode.scss';
+
+.login-body {
+	background: url('/src/resource/img/test-bg.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.login {
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	opacity: 0.9;
+	top: 200px;
+	width: 420px;
+	padding-bottom: 20px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.15);
+	.logo-feidu-login {
+		position: relative;
+		top: 55px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	> p {
+		margin-top: 70px;
+		font-size: 22px;
+		margin-bottom: 40px;
+		text-align: center;
+		color: #364150;
+		font-size: 14px;
+	}
+	input {
+		border: none;
+		outline: none;
+
+	}
+	input[type="text"] {
+		width: 400px;
+		height: 60px;
+		padding-left: 30px;
+		border-radius: 4px;
+		background-color: #ffffff;
+		border: solid 1px #d9d9d9;
+	}
+	input[type="password"] {
+		width: 400px;
+		height: 60px;
+		padding-left: 30px;
+		border-radius: 4px;
+		background-color: #ffffff;
+		border: solid 1px #d9d9d9;
+	}
+	input[type="checkbox"] {
+		width: 20px;
+		height: 20px;
+		-webkit-appearance: checkbox;
+		top: 6px;
+		margin-left: 0;
+		position: relative;
+	}
+	.form-li {
+		margin: 20px 0;
+		padding: 0 40px;
+		position: relative;
+		.remember {
+			float: left;
+		}
+		.btn-submit {
+			width: 340px;
+			height: 50px;
+			border-radius: 4px;
+			background-color: #0093ff;
+			border: solid 1px #cccccc;
+			margin: 0 auto;
+			font-size: 18px;
+			line-height: 0.9;
+			text-align: center;
+			color: #ffffff;
+		}
+		> span {
+			position: absolute;
+			left: 50px;
+			top: 11px;
+			color: #94989e;
+		}
+		> .btn-group {
+			float: right;
+			> .btn {
+				width: 60px;
+				height: 40px;
+				border-radius: 4px;
+			}
+		}
+	}
+	.error {
+		border: 1px solid #ff0000;
+	}
+}
+
+#username, #password{
+	width: 100%;
+	height: 40px;
+	padding: 10px 10px 10px 36px;
+	box-sizing: border-box;
+}
+#username {
+	width: 270px;
+}
+

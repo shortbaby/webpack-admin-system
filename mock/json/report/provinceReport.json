@@ -1,0 +1,26 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data":[
+        {
+            "name":"广东",
+            "number":10,
+            "percent":"10%"
+        },
+                {
+            "name":"北京",
+            "number":20,
+            "percent":"20%"
+        },
+                {
+            "name":"湖北",
+            "number":30,
+            "percent":"30%"
+        },
+                {
+            "name":"上海",
+            "number":40,
+            "percent":"40%"
+        }
+    ]
+}

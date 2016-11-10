@@ -1,0 +1,12 @@
+# Vendor files #
+################
+/node_modules/
+
+# Project files #
+#################
+.project
+
+# Other #
+#########
+.log
+/dist/

@@ -1,0 +1,344 @@
+@import '../../resource/css/common/color';
+
+.contract_wrap {
+	.contract-list-div {
+		padding: 20px;
+		position: relative;
+		.contract-table {
+			overflow-x: auto;
+		}
+		.contract-tag {
+			height: 96px;
+			width: 200px;
+			display: inline-block;
+			text-align: center;
+			border-radius: 4px;
+			color: #fff;
+			// padding: 8px;
+    		box-sizing: border-box;
+			label {
+				span {
+					font-size: 40px;
+					margin-right: 5px;
+				}
+			}
+			&.tag-1 {
+				background: #8acc72;
+				margin-right: 20px;
+			}
+			&.tag-2 {
+				background: #52b8d1;
+			}
+		}
+		.top {
+			padding: 20px 0;
+			.left {
+				position: absolute;
+				> span {
+					font-size: 36px;
+					color: #333;
+				}
+				> .txt {
+					font-size: 16px;
+					color: #999;
+					position: relative;
+					top: -5px;
+				}
+			}
+			.search-form {
+				display: inline-block;
+				float: right;
+				> div {
+					float: left;
+					margin-right: 10px;
+				}
+				> .el-date-editor {
+					float: left;
+					margin-right: 10px;
+				}
+				> .el-input {
+					margin-right: 0;
+				}
+			}
+		}
+		.pager {
+			margin-top: 20px;
+		}
+	}
+	.contract-detail-div {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+		.contract-detail-div_contend {
+			padding: 20px 20px 50px 20px;
+		}
+		.verify-info {
+			margin-bottom: 20px;
+			> p {
+				&.res {
+					font-size: 20px;
+					&.unpass {
+						color: $theme-color;
+					}
+					&.pass {
+						color: #2cc76c;
+					}
+					.iconfont {
+						font-size: 32px;
+					}
+					.msg {
+						margin-left: 10px;
+						position: relative;
+						top: -2px;
+					}
+				}
+				&.remark-p {
+					color: #393d40;
+					margin: 10px 0;
+					padding-left: 70px;
+					position: relative;
+					> label {
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+				&:last-child {
+					color: #9c9e9f;
+					span {
+						margin-right: 10px;
+						&:nth-child(2) {
+							margin-right: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.contract-verify-div {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+		.contract-verify-div_contend {
+			padding: 20px 20px 50px 20px;
+			> .el-textarea {
+				width: 540px;
+				margin-bottom: 20px;
+			}
+			> .el-button {
+				margin-right: 20px;
+			}
+		}
+	}
+	.contract-org-div {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+		.contract-org-div_contend {
+			padding: 20px 20px 50px 20px;
+			> .el-textarea {
+				max-width: 540px;
+			}
+			> .el-button {
+				margin-top: 20px;
+			}
+		}
+		.el-dialog {
+			width: 700px;
+		}
+		.org-dialog-content {
+			.top-tab {
+				.el-tabs {
+					width: 100%;
+				}
+				.el-tabs__header {
+					border-bottom: 1px solid #d3dce6;
+					margin-bottom: 10px;
+				}
+			}
+			.top {
+				padding: 0 0 10px 0;
+				> div {
+					float: left;
+					margin-right: 20px;
+				}
+			}
+		}
+		.new-org-div {
+			> header {
+				background: #f5f7f7;
+				padding: 10px;
+				font-size: 16px;
+				font-weight: 600;
+			}
+			.el-form-item {
+				display: inline-block;
+				width: 190px;
+				margin-right: 27px;
+				&.item-4 {
+					width: 400px;
+					.region-picker {
+						display: inline-block;
+						> div {
+							display: inline-block;
+						}
+					}
+				}
+				.el-date-editor {
+					width: 190px;
+				}
+				.el-select {
+					width: 190px;
+					display: inline-block;
+				}
+			}
+		}
+		.package-dialog-content {
+			.top {
+				.el-select {
+					width: 400px;
+				}
+			}
+		}
+	}
+	.contract-info {
+		margin-bottom: 20px;
+	}
+	.org-info {
+		margin-bottom: 20px;
+	}
+	.package-info {
+		margin-bottom: 20px;
+	}
+	.info-head {
+		> span {
+			font-size: 18px;
+			color: #6b6e70;
+			&.tip {
+				font-size: 14px;
+				color: #6b6e70;
+				margin-left: 100px;
+			}
+		}
+		> label {
+			margin-left: 30px;
+			color: $theme-color;
+			position: relative;
+			line-height: 21px;
+			height: 21px;
+			top: -3px;
+			cursor: pointer;
+			.txt {
+				position: relative;
+				top: 1px;
+			}
+		}
+		padding-top: 10px;
+		margin-bottom: 10px;
+	}
+	.info-panel {
+		background: #fff;
+		padding: 18px 20px;
+		width: 100%;
+		box-sizing: border-box;
+		.info-panel-item {
+			p {
+				font-size: 14px;
+				line-height: 30px;
+				&:first-child {
+					color: #9c9e9f;
+				}
+				&:last-child {
+					color: #393d40;
+				}
+			}
+			.org-name {
+				font-size: 16px;
+				color: #393d40;
+				font-weight: 600;
+				position: relative;
+				top: 14px;
+				line-height: 32px;
+			}
+		}
+		.bottom {
+			margin-top: 10px;
+			border-top: 1px solid #e5e7e7;
+			padding: 20px 0;
+			.money {
+				color: $theme-color;
+			}
+		}
+		.package-list {
+			li {
+				margin: 8px 0;
+				> span {
+					position: relative;
+					top: -13px;
+					margin-right: 10px;
+					color: #9c9e9f;
+					&.icon-shanchu {
+						color: #ff5e3d;
+    					background: #fff;
+    					font-size: 18px;
+					}
+					&.icon {
+						top: -15px;
+						color: #fff;
+					}
+					&.name {
+						color: #393d40;
+						font-weight: 600;
+						margin-right: 40px;
+					}
+					&.txt {
+						color: #393d40;
+						margin-right: 10px;
+					}
+					&.num {
+						color: #9c9e9f;
+						margin-right: 10px;
+					}
+					&.money {
+						color: #393d40;
+						margin: 0 30px;
+					}
+				}
+			}
+		}
+	}
+	.remark-info {
+		margin-bottom: 20px;
+		.info-panel {
+			width: 500px;
+		}
+	}
+	.el-table  {
+		td {
+			.cell {
+				.uncommit {
+					color: #9c9e9f;
+				}
+				.wait {
+					color: #3896d8;
+				}
+				.pass {
+					color: #27ae60;
+				}
+				.unpass {
+					color: #ff5e3d;
+				}
+				.opration {
+					> span {
+						color: $theme-color;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+
+}

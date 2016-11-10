@@ -1,0 +1,52 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data": [
+        {
+            "id":1,
+            "businessName":"课程名称",
+            "tagName":"标签名称",
+            "tangId":1,
+            "multiNames":"套餐内容",
+            "price":100
+        },
+        {
+            "id":2,
+            "businessName":"课程名称",
+            "tagName":"标签名称",
+            "tangId":1,
+            "multiNames":"套餐内容",
+            "price":100
+        },
+        {
+            "id":3,
+            "businessName":"课程名称",
+            "tagName":"标签名称",
+            "tangId":1,
+            "multiNames":"套餐内容",
+            "price":100
+        },
+        {
+            "id":4,
+            "businessName":"课程名称",
+            "tagName":"标签名称",
+            "tangId":1,
+            "multiNames":"套餐内容",
+            "price":100
+        },
+        {
+            "id":5,
+            "businessName":"课程名称",
+            "tagName":"标签名称",
+            "tangId":1,
+            "multiNames":"套餐内容",
+            "price":100
+        }
+    ],
+    "pageDto":{
+        "count":100,
+        "pageNum":1,
+        "pageSize":20,
+        "curPageCount":20
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "msg": "succ",
+    "code": 0,
+    "data": {
+        "header": [{
+            "name": "id",
+            "showName": "",
+            "lock": false,
+            "hidden": true,
+            "defaultProp": true
+        }, {
+            "name": "name",
+            "showName": "机构名称",
+            "lock": true,
+            "hidden": false,
+            "defaultProp": true
+        }, {
+            "name": "cityName",
+            "showName": "机构城市",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": false
+        }, {
+            "name": "categoryStr",
+            "showName": "品类",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": true
+        }, {
+            "name": "annualIncomeStr",
+            "showName": "年收入",
+            "lock": false,
+            "hidden": false,
+            "defaultProp": false
+        }],
+        "result": [{
+            "id":10000,
+            "name":"新东方",
+            "cityName":"湖北武汉",
+            "categoryStr":"考研考级",
+            "annualIncomeStr":"1万元-20万元"
+        },{
+            "id":10000,
+            "name":"新东方",
+            "cityName":"湖北武汉",
+            "categoryStr":"考研考级",
+            "annualIncomeStr":"1万元-20万元"
+        },{
+            "id":10000,
+            "name":"新东方",
+            "cityName":"湖北武汉",
+            "categoryStr":"考研考级",
+            "annualIncomeStr":"1万元-20万元"
+        },{
+            "id":10000,
+            "name":"新东方",
+            "cityName":"湖北武汉",
+            "categoryStr":"考研考级",
+            "annualIncomeStr":"1万元-20万元"
+        },{
+            "id":10000,
+            "name":"新东方",
+            "cityName":"湖北武汉",
+            "categoryStr":"考研考级",
+            "annualIncomeStr":"1万元-20万元"
+        },{
+            "id":10000,
+            "name":"新东方",
+            "cityName":"湖北武汉",
+            "categoryStr":"考研考级",
+            "annualIncomeStr":"1万元-20万元"
+        },{
+            "id":10000,
+            "name":"新东方",
+            "cityName":"湖北武汉",
+            "categoryStr":"考研考级",
+            "annualIncomeStr":"1万元-20万元"
+        }]
+    },
+    "pageDto": {
+        "count": 20,
+        "curPageCount": 7,
+        "pageNum": 1,
+        "pageSize": 3,
+        "totalPageNum": 1
+    }
+}

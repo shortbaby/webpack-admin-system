@@ -1,0 +1,17 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data": 
+    {
+        "id":1234,
+        "name":"武汉大学计算机学院",
+        "city":"武汉市",
+        "category":"K12教育",
+        "headquartersStaff":"张三",
+        "saleStaff":"李四",
+        "contractAmount":"12000.00",
+        "contractNumber":3,
+        "classesNumber":2,
+        "studentNumber":100
+    }
+}

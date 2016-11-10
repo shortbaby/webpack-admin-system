@@ -1,0 +1,19 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "courseNumId": 1,
+            "courseId": 1,
+            "contractId": 1,
+            "courseName": "高效开发十大条例",
+            "courseType": 0,
+            "effectiveDate": 1477968809000,
+            "expirationDate": 1477968810000,
+            "onlyOneself": 0,
+            "useNum": 10,
+            "totalNum": 20
+        }
+    ],
+    "pageDto": null
+}

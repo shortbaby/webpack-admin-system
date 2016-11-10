@@ -1,0 +1,69 @@
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/mixin';
+
+.org-detail-wrapper {
+	margin: 20px;
+	@include clearfix();
+	.top-div {
+		> span {
+			margin: 0 5px;
+			&.b-spn {
+				color: $theme-color;
+				cursor: pointer;
+			}
+		}
+		> label {
+			margin-right: 10px;
+		}
+	}
+	
+	.el-tabs {
+		display: block;
+		.el-tabs__header {
+			border-bottom: 1px solid #d3dce6;
+		}
+	}
+	.report-table {
+		display: inline-block;
+		float: left;
+		padding-right: 20px;
+		padding-top: 20px;
+		.table-title {
+			padding-left: 20px;
+			font-size: 15px;
+			border-left: 3px solid $theme-color;
+			margin-bottom: 10px;
+		}
+	}
+}
+.org-city_wrap {
+	.report-table {
+		padding-left: 20px;
+	}
+}
+#org-category-chart, #org-income-chart {
+	float: left;
+	display: inline-block;
+	width: 730px;
+	height: 520px;
+	padding-top: 20px;
+}
+#org-city-chart {
+	padding: 20px;
+}
+#course-resume-chart {
+	width: 800px;
+}
+#class-detail-chart {
+	width: 900px;
+	height: 450px;
+	margin: 20px 0 0 20px;
+}
+#org-increase-chart {
+	padding-right: 20px;
+	float: left;
+	display: inline-block;
+	width: 730px;
+	height: 520px;
+	padding-top: 20px;
+}

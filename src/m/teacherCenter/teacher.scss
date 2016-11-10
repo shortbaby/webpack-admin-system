@@ -1,0 +1,362 @@
+@import '../../../dep/iconfont/iconfont.css';
+@import '../../resource/css/common/m';
+@import '../../resource/css/common/color';
+@import '../../resource/css/common/mixin';
+@import '../../resource/css/common/mint-override';
+p {
+	margin: 0;
+}
+#app {
+	padding-bottom: 3rem;
+	> div {
+		width: 100%;
+	}
+}
+.course-item {
+	> p {
+		font-size: 1.4rem;
+		padding: 1rem 1.5rem;
+		background: #fcfcfc;
+		border-bottom: 1px solid #e5e7e7;
+	}
+	> ul {
+		li {
+			background: #fff;
+			padding: 1.5rem;
+			border-bottom: 1px solid #e5e7e7;
+		}
+		div {
+			&:last-child {
+				margin-left: 9rem;
+				> p {
+					width: 100%;
+					@include text-overflow();
+				}
+			}
+			&.left {
+				padding-right: .6rem;
+				border-right: 1px solid #e5e7e7;
+				width: 7rem;
+			}
+			p {
+				margin: .5rem 0;
+				&:first-child {
+					font-size: 1.8rem;
+					color: #393d40;
+				}
+				&:last-child {
+					font-size: 1.4rem;
+					color: #9c9e9f;
+				}
+			}
+		}
+	}
+}
+.button-control {
+	margin: 2rem;
+	button {
+		width: 100%;
+	}
+}
+.input-field {
+	margin: 2rem;
+	input {
+		width: 100%;
+		font-size: 1.6rem;
+		padding: 1.2rem 0 1.2rem 1.5rem;
+	    box-sizing: border-box;
+	    border: none;
+	}
+}
+.teacher-center-wrapper {
+	.info-panel {
+		background: $theme-color;
+		color: #fff;
+		.info {
+			position: relative;
+			padding-bottom: 3rem;
+			padding-top: 3rem;
+			> a {
+				position: absolute;
+				right: 1rem;
+				top: 7rem;
+				color: #fff;
+				.iconfont {
+					font-size: 3rem;
+				}
+			}
+			.main-info {
+				text-align: center;
+			}
+			p {
+				font-size: 1.4rem;
+				text-align: center;
+				margin: 1rem 3rem;
+				line-height: 1.5;
+				&.name {
+					font-size: 1.6rem;
+				}
+			}
+			.avatar {
+				img {
+					width: 7rem;
+					height: 7rem;
+					border-radius: 3.5rem;
+				}
+			}
+		}
+	}
+	.naver {
+		ul {
+			margin: 2rem;
+			li {
+				position: relative;
+				padding: 1.5rem;
+				background: #fff;
+				margin-bottom: 1rem;
+				> div {
+					display: inline-block;
+					margin-left: 1rem;
+					position: relative;
+					top: 0;
+					> p {
+						color: #393d40;
+						&:first-child {
+							font-size: 1.7rem;
+						}
+						&:last-child {
+							position: relative;
+							top: .5rem;
+							font-size: 1.4rem;
+							color: #9c9e9f;
+						}
+					}
+				}
+				.iconfont {
+					color: $theme-color;
+					font-size: 3rem;
+				}
+				.icon-arrowright {
+					color: #b4b6b8;
+					font-size: 2.4rem;
+					position: absolute;
+					right: 1rem;
+					top: 50%;
+					margin-top: -1rem;
+				}
+			}
+		}
+	}
+}
+.teacher-profile-wrapper {
+	.field-set {
+		ul {
+			li {
+				font-size: 1.5rem;
+				color: #393d40;
+				@include clearfix();
+				background: #fff;
+				padding: 1.5rem;
+				border-top: 1px solid #f2f3f3;
+				.right {
+					color: #9c9e9f;
+					a {
+						color: $theme-color;
+						position: relative;
+					}
+					.wx-upload-btn {
+						top: 1rem;
+					}
+				}
+			}
+		}
+		+ div {
+			padding: 2rem 1.5rem;
+			> button {
+				width: 100%;
+			}
+		}
+	}	
+}
+.teacher-timetable-wrapper {
+	nav {
+		display: flex;
+		text-align: center;
+		background: #fff;
+		border-bottom: 1px solid #e5e7e7;
+		padding: 1.2rem 0;
+		> a {
+			color: $theme-color;
+			flex: 1;
+		}
+	}
+	.hours-wrap {
+		text-align: center;
+		padding: 2.5rem 0;
+		p {
+			margin: 1.5rem;
+			color: #6b6e70;
+			font-size: 1.5rem;
+			.lar {
+				font-size: 4rem;
+				color: #393d40;
+			}
+			.txt {
+				font-size: 1.2rem;
+				color: #393d40;
+			}
+		}
+	}
+}
+.class-item {
+	background: #fff;
+	.name {
+		padding: 1.5rem 2rem 1rem 2rem;
+		color: #393d40;
+		font-size: 1.6rem; 
+	}
+	.txt {
+		padding: 0 2rem 1.5rem 2rem;
+		color: #9c9e9f;
+		font-size: 1.2rem;
+		border-bottom: 1px solid #e5e7e7;
+	}
+	li {
+		padding: 1rem 2rem;
+		border-bottom: 1px solid #e5e7e7;
+		p {
+			&:first-child {
+				margin-bottom: 1rem;
+				font-size: 1.4rem;
+				color: #393d40;
+				span {
+					float: right;
+					color: #ec960c;
+				}
+			}
+			&:last-child {
+				font-size: 1.2rem;
+				color: #9c9e9f;
+			}
+		}
+	}
+}
+.teacher-class-wrapper {
+	.class-item {
+		background: #fff;
+		border-top: 1px solid #e5e6e7;
+		border-bottom: 1px solid #e5e6e7;
+		padding: 1.5rem;
+		margin-bottom: 2rem;
+		img {
+			width: 100%;
+			height: 18rem;
+		}
+		.name {
+			font-size: 1.6rem;
+			color: #393d40;
+			margin: 1rem 0;
+		}
+		.txt {
+			font-size: 1.2rem;
+		}
+		.icon-arrowright {
+			float: right;
+			font-size: 1.4rem;
+			position: relative;
+			top: .2rem;
+		}
+		.icon-address {
+			margin-left: 2rem;
+		}
+	}
+}
+.teacher-class-detail-wrapper {
+	.card {
+		background: #fff;
+		border-bottom: 1px solid #e5e6e7;
+		padding-bottom: 1rem;
+		margin-bottom: 2rem;
+		img {
+			width: 100%;
+			height: 21rem;
+		}
+		p {
+			@include text-overflow();
+			font-size: 1.4rem;
+			width: 100%;
+			box-sizing: border-box;
+			padding: .5rem .5rem .5rem 1.5rem;;
+			label {
+				color: #9c9e9f;
+				margin-right: .5rem;
+			}
+		}
+		.name {
+			font-size: 1.8rem;
+			color: #393d40;
+			padding: 1rem .5rem 1rem 1.5rem;
+		}
+	}
+	.student-wrapper {
+		> p {
+			background: #fff;
+			padding: 1.5rem 2rem;
+			font-size: 1.5rem;
+			color: #ec960c;
+			border-top: 1px solid #e5e6e7;
+			border-bottom: 1px solid #e5e6e7;
+			span {
+				float: right;
+			}
+		}
+		> div {
+			// margin: .5rem;
+			background: #fff;
+			border-top: 1px solid #e5e6e7;
+			padding-bottom: 1rem;
+			.item {
+				float: left;
+				margin: 1rem;
+				text-align: center;
+				color: #6b6e70;
+				font-size: 1.3rem;
+				> p {
+					@include clearfix();
+					margin-top: .5rem;
+				}
+			}
+		}
+	}
+	.course-item {
+		> p {
+			color: #9c9e9f;
+		}
+	}
+}
+.teacher-all-students-wrapper {
+	.list {
+		li {
+			background: #fff;
+			padding: 1rem 2rem;
+			border-bottom: 1px solid #e5e6e7;
+			@include clearfix();
+			img {
+				float: left;
+			}
+			.tel {
+				font-size: 1.2rem;
+				color: #9c9e9f;
+				position: relative;
+				top: .7rem;
+			}
+			.name {
+				font-size: 1.6rem;
+				color: #393d40;
+			}
+			p {
+				margin-left: 5rem;
+			}
+		}
+	}
+}

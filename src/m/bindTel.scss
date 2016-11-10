@@ -1,0 +1,53 @@
+@import '../../dep/iconfont/iconfont.css';
+@import '../resource/css/common/m';
+
+.logo-wrapper{
+	text-align: center;
+	padding-top: 3rem;
+	.logo {
+		height: 8rem;
+		width: 7rem;
+		background-size: 100% 100%;
+		margin: 0 auto;
+		background-image: url('../resource/img/tx-business-logo.png');
+	}
+	p {
+		text-align: center;
+		color: #393d40;
+		font-size: 1.6rem;
+	}
+}
+.login-form {
+	margin: 3rem 2rem;
+	.form-control {
+		margin-bottom: 1.5rem;
+	}
+	> button {
+		width: 100%;
+	}
+	.mobile-field {
+		.mint-cell-title {
+			width: 4rem;
+		}
+		.mint-cell-text {
+			color: $theme-color;
+		}
+		.mint-cell-value {
+			border-left: 1px solid #f5f6f7;
+			padding-left: 1rem;
+		}
+	}
+	.code-field {
+		.mint-field-other {
+			top: 1.4rem;
+			right: 1rem;
+			span {
+				color: $theme-color;
+				font-size: 1.4rem;
+				&.disabled {
+					color: #9c9e9f;
+				}
+			}
+		}
+	}
+}

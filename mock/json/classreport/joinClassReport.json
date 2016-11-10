@@ -1,0 +1,21 @@
+{
+	"code": 0,
+	"msg": null,
+	"data": [{
+		"classId": 1,
+		"className": "testttt",
+		"orgNum": 1,
+		"studentNum": 1
+	}, {
+		"classId": 2,
+		"className": "test",
+		"orgNum": 0,
+		"studentNum": 0
+	}, {
+		"classId": 7,
+		"className": "213111111432t",
+		"orgNum": 0,
+		"studentNum": 0
+	}],
+	"pageDto": null
+}

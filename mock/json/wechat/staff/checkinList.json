@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "id": 1,
+            "classId": 1,
+            "startTime": 1477968809000,
+            "studentCount": 10,
+            "className": "310倍增计划",
+            "address": "洪山区街道口群光百脑汇20层",
+            "endTime": 1477968819000,
+            "pic": "http://img.gsxservice.com/36218_w4bny0tf.jpeg@1e_40h_40w_1c_0i_1o_1l_90Q_1x.jpeg",
+            "theme": "主题思想",
+            "teacherId": 1,
+            "teacherName": "张老师"
+        }
+    ],
+    "pageDto": {
+        "count": 15,
+        "curPageCount": 15,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

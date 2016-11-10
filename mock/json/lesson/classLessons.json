@@ -1,0 +1,27 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [
+        {
+            "lessonId": 1,
+            "classId": 1,
+            "className": "testttt",
+            "courses": null,
+            "startTime": 1478743200000,
+            "endTime": 1478843200000,
+            "theme": "1中文主題",
+            "teacherName": "谢树泉",
+            "address": "1中文地址",
+            "lessonStatus": 0,
+            "conflict": "--",
+            "number": 1
+        }
+    ],
+    "pageDto": {
+        "count": 1,
+        "curPageCount": 1,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

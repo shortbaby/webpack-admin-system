@@ -1,0 +1,18 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [{
+        "teacherId": 1,
+        "teacherName": "谢树泉",
+        "teachClassNum": 1,
+        "courseNum": 2,
+        "totalLessonHour": ""
+    }],
+    "pageDto": {
+        "count": 1,
+        "curPageCount": 1,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}

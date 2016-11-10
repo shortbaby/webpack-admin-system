@@ -1,0 +1,53 @@
+@import '../common/color';
+.region-picker {
+    position: relative;
+    .el-input {
+        .el-input__inner {
+            cursor: pointer;
+        }
+    }
+    .dropdown_content {
+        position: absolute;
+        left: 0;
+        top: 38px;
+        color: #475669;
+        border: 1px solid #d3dce6;
+        box-sizing: border-box;
+        box-shadow: 0 2px 6px #ccc;
+        background: #fff;
+        z-index: 10;
+        > div {
+            width: 100px;
+            float: left;
+            border-right: 1px solid #ddd;
+            ul {
+                height: 300px;
+                overflow-y: auto; 
+            }
+            &:last-child {
+                border-right: none;
+            }
+            .list-li {
+                padding: 5px;
+                line-height: 1.5;
+                &.active {
+                    background: $theme-color;
+                    color: #fff;
+                }
+                &:hover {
+                    background: $theme-color;
+                    color: #fff;
+                }
+                font-size: 0;
+            }
+            .list-span {
+                display: inline-block;
+                font-size: 14px;
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

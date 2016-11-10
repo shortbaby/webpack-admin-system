@@ -1,0 +1,33 @@
+{
+    "msg":"succ",
+    "code": 0,
+    "data": {
+        "id":1,
+        "businessName":"套餐名称",
+        "tagId":1,
+        "tagName":"标签名称",
+        "price":100,
+        "courses":[
+            {
+                "courseType":0,
+                "courseRule":0,
+                "lessonRule":0,
+                "lessonCount":1,
+                "onlyOneself":0,
+                "detailId":1,
+                "courseId": 1,
+                "courseName":"课程名称"
+            },
+            {
+                "courseType":1,
+                "courseRule":0,
+                "lessonRule":0,
+                "lessonCount":1,
+                "onlyOneself":0,
+                "detailId":1,
+                "courseId": 1,
+                "courseName":"课程名称"
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "className": "testttt",
+        "logs": [
+            {
+                "id": 1,
+                "classId": 1,
+                "orgId": 1,
+                "studentId": 1,
+                "type": 1,
+                "operId": 0,
+                "operName": "",
+                "studentName": "张三",
+                "classCourseNumIds": "1,3",
+                "createTime": 1476869480000
+            },
+            {
+                "id": 6,
+                "classId": 1,
+                "orgId": 1,
+                "studentId": 1,
+                "type": 2,
+                "operId": 0,
+                "operName": "",
+                "studentName": "张三",
+                "classCourseNumIds": "0",
+                "createTime": 1476870452000
+            },
+            {
+                "id": 7,
+                "classId": 1,
+                "orgId": 1,
+                "studentId": 1,
+                "type": 1,
+                "operId": 0,
+                "operName": "",
+                "studentName": "张三",
+                "classCourseNumIds": "1,4",
+                "createTime": 1476871149000
+            }
+        ]
+    },
+    "pageDto": null
+}

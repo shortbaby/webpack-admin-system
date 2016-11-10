@@ -1,0 +1,27 @@
+{
+    "msg":"succ",
+    "code":0,
+    "data":[
+        {
+            "id":1234,
+            "name":"张三",
+            "genderStr":"男",
+            "duty":"校长",
+            "mobile":"13000000000"
+        },
+        {
+            "id":1235,
+            "name":"张四",
+            "genderStr":"男",
+            "duty":"分校长",
+            "mobile":"13100000000"
+        },
+        {
+            "id":1236,
+            "name":"张五",
+            "genderStr":"女",
+            "duty":"主管",
+            "mobile":"13200000000"
+        }
+    ]
+}

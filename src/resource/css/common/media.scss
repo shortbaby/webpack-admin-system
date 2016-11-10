@@ -1,0 +1,34 @@
+@import '../../../../node_modules/sass-mediaqueries/_media-queries';
+@import './mixin';
+
+@include max-screen(321px) {
+    .user-sign-wrapper {
+        .list {
+            li {
+                @include clearfix();
+                padding: 2rem;
+                border-bottom: 1px solid #e5e7e7;
+                background: #fff;
+                img {
+                    width: 100%;
+                    height: 7rem;
+                }
+                div {
+                    margin-left: 13rem;
+                    .iconfont {
+                        color: #9c9e9f;
+                    }
+                    p {
+                        font-size: 1.2rem;
+                        color: #393d40;
+                        margin-bottom: 1rem;
+                    }
+                    .name {
+                        font-size: 1.6rem;
+                        color: #393d40;
+                    }
+                }
+            }
+        }
+    }
+}

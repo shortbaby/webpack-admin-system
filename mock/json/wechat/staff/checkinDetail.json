@@ -1,0 +1,32 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "classDetail": {
+            "id": 1,
+            "classId": 1,
+            "startTime": 1477968809000,
+            "studentCount": 10,
+            "className": "310业绩倍增计划",
+            "address": "洪山区街道口群光百脑汇20层",
+            "endTime": 1477968810000,
+            "pic": "http://img.gsxservice.com/36218_w4bny0tf.jpeg@1e_40h_40w_1c_0i_1o_1l_90Q_1x.jpeg",
+            "theme": "课程主题",
+            "teacherId": 5,
+            "teacherName": "张老师"
+        },
+        "signedCount": 2,
+        "studentList": [
+            {
+                "id": 1,
+                "studentId": 1,
+                "studentName": "学生张",
+                "duty": "主管",
+                "status": 0,
+                "type": 0,
+                "tshirtSize": 0
+            }
+        ]
+    },
+    "pageDto": null
+}

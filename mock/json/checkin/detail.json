@@ -1,0 +1,24 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": [{
+        "id": 15,
+        "studentId": 111,
+        "studentName": "小王王",
+        "duty": "主管",
+        "shirtSize": 2,
+        "shirtSizeStr": "M-165",
+        "status": 1,
+        "statusStr": "已到课",
+        "type": 0,
+        "typeStr": "手动签到",
+        "orgName": "测试机构修改"
+    }],
+    "pageDto": {
+        "count": 1,
+        "curPageCount": null,
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPageNum": 1
+    }
+}
